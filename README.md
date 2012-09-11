@@ -17,7 +17,7 @@ So, HAML says it makes "code haiku"; but it's still full of sigils and unnecessa
         #email= current_user.email
         #bio= current_user.bio
 
-This is also (almost) valid HRML. There's no facility for the #email= variable evaluation, because this is (sort of) platform agnostic. I suppose you could add it in, if you wanted; it wouldn't be very difficult.
+This is also (almost) valid HRML. There's no facility for the `#email=` variable evaluation, because this is (sort of) platform agnostic. I suppose you could add it in, if you wanted; it wouldn't be very difficult.
 
 But let's take a look at something that's more common; something not made entirely of div tags. How about a login screen?
 
